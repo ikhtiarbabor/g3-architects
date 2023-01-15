@@ -42,6 +42,18 @@ Features love and enjoy
   .love-enjoy-image img {
     width: 100%;
   }
+  .love-enjoy-info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.5vw;
+  }
+  .love-enjoy-title,
+  .love-enjoy-description {
+    text-align: center;
+  }
+  .love-enjoy-title {
+    border: 0;
+  }
 }
 /* .............
     Tablet
@@ -71,6 +83,7 @@ Quick features
   .description {
     line-height: 2vw;
   }
+
   /*.......................
 Features love and enjoy
 ........................*/
