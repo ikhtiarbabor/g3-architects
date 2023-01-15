@@ -1,0 +1,58 @@
+/* .............
+    Smart Phone 
+.............. */
+
+@media screen and (max-width: 576px) {
+  /*....................
+    Header nav banner
+...................... */
+  .nav-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-img img {
+    width: 80%;
+  }
+  /*..............
+Quick features
+..............*/
+  .quick-features-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .quick-feature-gallery {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .description {
+    line-height: 2vw;
+  }
+}
+
+/* .............
+    Tablet
+.............. */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /*....................
+    Header nav banner
+...................... */
+  .nav-wrapper {
+    align-items: center;
+    flex-direction: column;
+  }
+  /*..............
+Quick features
+..............*/
+  .quick-features-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .quick-feature-gallery {
+    width: 90%;
+  }
+  .description {
+    line-height: 2vw;
+  }
+}
