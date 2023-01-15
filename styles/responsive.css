@@ -13,6 +13,9 @@
   .banner-img img {
     width: 80%;
   }
+  .banner-description {
+    width: 80%;
+  }
   /*..............
 Quick features
 ..............*/
@@ -26,7 +29,7 @@ Quick features
     grid-template-columns: repeat(1, 1fr);
   }
   .description {
-    line-height: 2vw;
+    line-height: 2.5vw;
   }
 }
 
@@ -48,6 +51,9 @@ Quick features
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+  }
+  .quick-feature-content {
+    width: 60%;
   }
   .quick-feature-gallery {
     width: 90%;
