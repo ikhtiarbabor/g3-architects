@@ -13,9 +13,6 @@
   .banner-img img {
     width: 80%;
   }
-  .banner-description {
-    width: 80%;
-  }
   /*..............
 Quick features
 ..............*/
@@ -31,8 +28,21 @@ Quick features
   .description {
     line-height: 2.5vw;
   }
+  /*.......................
+Features love and enjoy
+........................*/
+  .love-enjoy-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .love-enjoy-content,
+  .love-enjoy-image {
+    width: 90%;
+  }
+  .love-enjoy-image img {
+    width: 100%;
+  }
 }
-
 /* .............
     Tablet
 .............. */
@@ -60,5 +70,31 @@ Quick features
   }
   .description {
     line-height: 2vw;
+  }
+  /*.......................
+Features love and enjoy
+........................*/
+  .love-enjoy-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .love-enjoy-content,
+  .love-enjoy-image {
+    width: 90%;
+  }
+  .love-enjoy-image img {
+    width: 100%;
+  }
+  .love-enjoy-info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.5vw;
+  }
+  .love-enjoy-title,
+  .love-enjoy-description {
+    text-align: center;
+  }
+  .love-enjoy-title {
+    border: 0;
   }
 }

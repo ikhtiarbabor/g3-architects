@@ -110,3 +110,59 @@ Quick features
 .quick-feature-description {
   padding: 1.2vw 0;
 }
+/*.......................
+Features love and enjoy
+........................*/
+#love-enjoy {
+  padding: 3vw 0 9vw 0;
+}
+.love-enjoy-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.love-enjoy-content,
+.love-enjoy-image {
+  width: 45%;
+}
+.love-enjoy-image img {
+  width: 100%;
+}
+.love-enjoy-title {
+  border-left: 0.3vw solid #ff900e;
+  padding-left: 1vw;
+}
+
+.love-enjoy-description {
+  padding: 2vw 0;
+}
+.love-enjoy-info {
+  margin-bottom: 1.4vw;
+  padding: 1.4vw;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.love-enjoy-info h3 {
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+.love-enjoy-info p {
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+.love-enjoy-experience {
+  position: relative;
+  background: #ff900e;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  padding: 2vw;
+  top: -6vw;
+  left: -6vw;
+  border-radius: 0.5vw;
+}
+.love-enjoy-experience h4 {
+  font-size: 4.6vw;
+  font-weight: 700;
+}
+.love-enjoy-experience p {
+  font-size: 1.7vw;
+}
