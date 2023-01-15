@@ -73,6 +73,16 @@ Some Facts
   .some-facts-info img {
     width: 20%;
   }
+  /*.............
+    Footer
+..............*/
+  .footer-brands {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-logo {
+    width: 30%;
+  }
 }
 /* .............
     Tablet

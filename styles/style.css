@@ -198,3 +198,28 @@ Some Facts
 .some-facts-info p {
   font-size: 1.4vw;
 }
+/*.............
+    Footer
+..............*/
+
+.footer-head-info {
+  text-align: center;
+}
+.footer-head-info h2 {
+  padding-bottom: 1.7vw;
+}
+.footer-brands {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.7vw;
+}
+.footer-logo img {
+  width: 100%;
+}
+.copy-write {
+  margin: 9vw 0;
+  padding: 2vw 0;
+  background: #fff4e7;
+  border-radius: 5%;
+  text-align: center;
+}
