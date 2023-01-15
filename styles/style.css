@@ -166,3 +166,35 @@ Features love and enjoy
 .love-enjoy-experience p {
   font-size: 1.7vw;
 }
+/*...............
+Some Facts
+................*/
+
+.some-facts-info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  grid-column-gap: 8.9vw;
+  padding: 7vw 0;
+  justify-content: space-around;
+}
+.some-facts-info {
+  padding: 2.5vw;
+  border-radius: 5%;
+  border: 1px solid #ff900e;
+  transition: 0.5s ease;
+}
+.some-facts-info:hover {
+  transform: scale(1.2);
+}
+.some-facts-info img {
+  width: 50%;
+}
+.some-facts-info h4 {
+  font-size: 3.2vw;
+  font-weight: 600;
+  color: #424242;
+}
+.some-facts-info p {
+  font-size: 1.4vw;
+}

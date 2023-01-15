@@ -54,6 +54,25 @@ Features love and enjoy
   .love-enjoy-title {
     border: 0;
   }
+  /*...............
+Some Facts
+................*/
+  .some-facts-head {
+    text-align: center;
+  }
+  .some-facts-info-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1.4vw;
+    justify-items: center;
+    border-radius: 10%;
+  }
+  .some-facts-info {
+    width: 60%;
+    border-radius: 5%;
+  }
+  .some-facts-info img {
+    width: 20%;
+  }
 }
 /* .............
     Tablet
@@ -109,5 +128,23 @@ Features love and enjoy
   }
   .love-enjoy-title {
     border: 0;
+  }
+  /*...............
+Some Facts
+................*/
+  .some-facts-head {
+    text-align: center;
+  }
+  .some-facts-info-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1.4vw;
+    justify-items: center;
+    border-radius: 5%;
+  }
+  .some-facts-info {
+    width: 100%;
+  }
+  .some-facts-info img {
+    width: 20%;
   }
 }
